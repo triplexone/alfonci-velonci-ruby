@@ -11,7 +11,7 @@ while alfonci < velonci do
   if godine % 4 == 0
     velonci_rast = 0.05
     velonci += ((velonci.to_i * velonci_rast)-rat)
-  elsif
+  else
     velonci_rast = 0.02
     velonci += velonci.to_i * velonci_rast
   end
